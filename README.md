@@ -78,11 +78,35 @@ Independiente de medio: Puede publicarse en multiples formatos
 
 * YAML
 
+**Utiliza la tabulacion para indicar su estructura**
 
+**Lo elementos que forman una secuencia utilizan un guion medio**
+
+**Los contenidos en YAML se describen utilizando el conjunto de caracteres imprimibles de Unicode, bien en UTF-8 o UTF-16**
+
+**Los comentarios vienen encabezados por la almohadilla**
+** **
 
 #### XML: definicion y caracteristicas del metalenguaje
-* Prologo
-* Contenido
-* Atributos
+XML es un metalenguaje que te va a permitir mediante varias etiquetas crear nuevos lenguajes de marcas o dialectos debido a unas reglas que define, esta mantenido por la W3C y proviene del estandar SGML
+* Prologo: Es un documento XML opcional que tiene informacion relativa al propiodocumento, contiene los siguientes elementos
+
+ **Version** Es la version de xml
+
+ **Encoding** Indica en que esta codificado el documento
+
+ **standalone** Indica la existencia de un esquema XML
+
+ ![Alt text](image-2.png)
+
+* Contenido: Es todo lo que se encuentra entre las etiquetas de apertura y cierre
+
+![Alt text](image-3.png)
+* Atributos: Es una opcion del xml que te aporta informacion extra sobre el elemento que contiene
+
+![Alt text](image-4.png)
 * Ejemplos en XML
 
+![Alt text](image-5.png)
+
+Aqui tenemos un ejemplo que habla sobre pajaros, y se centra en las especies,nombres y en la region que viven los buhos
