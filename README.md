@@ -110,3 +110,70 @@ XML es un metalenguaje que te va a permitir mediante varias etiquetas crear nuev
 ![Alt text](image-5.png)
 
 Aqui tenemos un ejemplo que habla sobre pajaros, y se centra en las especies,nombres y en la region que viven los buhos
+
+## Documentos XML, estructura:
+La **Declaracion o prologo** es un elemento opcional que esta a principio del documento, puede contener los siguientes atributos
+
+![Alt text](image-7.png)
+
+Aqui en el siguiente ejemplo podemos ver un prologo con sus atributos
+
+
+Los **elementos** son contenedores que almacenan texto, atributos, elementos
+atributos, objetos de soporte
+
+![Alt text](image-8.png)
+
+Aqui se puede ver un ejemplo para quede mas claro 
+
+Los **atributos** son informacion adicional dentro de un elemento que tiene que tener un valor entre comillas, siempre debe aparecer en la etiqueta de apertura, pueden ser opcionales y pueden comenzar con un guion bajo o caracter
+
+![Alt text](image-9.png)
+
+
+Un comentario añade informacion extra sin que tenga que ser procesada, suele utilizarse para ayudar y guiar al usuario
+
+![Alt text](image-10.png)
+
+Aqui se ve un ejemplo de comentario
+
+Los **Espacios de Nombres** es un identificador que nos sirve para resolver ambiguedades que pueden surgir conado hay dos o mas elementos iguales
+![Alt text](image-12.png)
+Aqui se puede observar un ejemplo en un xml
+
+Entidades permite incluir informacion predefinida en un documento, existen 5 entidades generales
+![Alt text](image-13.png)
+
+Estas son las 5 entidades que existen
+
+CDATA son conjuntos de caracteres que no debe ser tratado por el analizador que si formara parte de la informacion a diferencia del comentario 
+
+![Alt text](image-14.png)
+
+Aqui tenemos un ejemplo del CDATA
+
+## Validación de documentos:
+es la comprobación de que un documento en lenguaje XML está bien formado y se ajusta a una estructura definida
+### DTD:
+Es una serie de reglas que van a permitir validar que la estructura de un documento es valida, puede ser interno (forma parte del documento)
+
+Las **Entidades** sirven para establecer un valor en el dtd, existen entidades **internas** definidas en el propio dtd y entidades **externas** definidas fuera del dtd
+
+![Alt text](image-15.png)
+
+Anotaciones nos permite identificar el formato de entidades que no son xml y que no se van a procesar, pueden ser publicas o prividas
+
+Elementos sirev para definir una estructura de uno o varios elmentos que contiene el documento, podemos definir una cardinalidad a cada elemento 
+![Alt text](image-16.png)
+Atributos
+### XMLSchema
+Definición
+Estructura Básica
+Elementos Locales y Globales
+Elementos Simples
+Elementos Complejos
+Subelementos
+Atributos
+Restricciones
+Tipos de Datos
+Comentarios en XMLSChema
