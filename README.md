@@ -163,17 +163,49 @@ Las **Entidades** sirven para establecer un valor en el dtd, existen entidades *
 
 Anotaciones nos permite identificar el formato de entidades que no son xml y que no se van a procesar, pueden ser publicas o prividas
 
-Elementos sirev para definir una estructura de uno o varios elmentos que contiene el documento, podemos definir una cardinalidad a cada elemento 
+Elementos sirve para definir una estructura de uno o varios elmentos que contiene el documento, podemos definir una cardinalidad a cada elemento 
 ![Alt text](image-16.png)
-Atributos
+
+Atributos en dtd sirve para dar mas informacion sobre el elemento
+
+![Alt text](image-17.png)
+
+Aqui tenemos un ejemplo de un atributo en dtd
+
 ### XMLSchema
-Definición
+Definición Es un lenguaje de esquema utilizado para describir la estructura y las restricciones de los contenidos de los documentos XML
+
 Estructura Básica
 Elementos Locales y Globales
-Elementos Simples
-Elementos Complejos
-Subelementos
-Atributos
-Restricciones
-Tipos de Datos
-Comentarios en XMLSChema
+
+**Elementos Simples** Guarda un texto, numero, fecha,etc.. se debe establecer el atributo type o utiizar una restriccion
+
+**Elementos Complejos** Guara dentro elementos hijos y se pueden establecer restricciones a las relaciones
+
+**Subelementos** son los establecen una relacion de lso elementos contenidos respecto al padre, son los siguientes
+
+  * xs:sequence: Indica una secencia de elementos obligatorios contenidos con respecto al padre
+
+  * xs:choice: señala una secuencia de elementos alternativos
+
+  * xs:all: inidica una secuencia de elemntos opcionales 
+
+**Atributos** se pueden guardar tanto en elementos simples y complejos, aqui a continuacion los valores que se pueden poner:
+* name: nombre del atributo
+* type: tupo de datos
+* use: Indica su obligatoriedad, hay los siguientes
+  * required: Es obligatorio
+  * optional: Es opcional
+  *  prohibited: Esta prohibido usarlo
+
+**Restricciones** sirve para establecer unas prohibiciones dentro del documento
+![Alt text](image-20.png)
+![Alt text](image-21.png)
+
+**Tipos de Datos** ahora acontinucacion se vera una captura con algunos de los tipos de datos que puedes introducir en xmlschema
+![Alt text](image-19.png)
+
+Comentarios en XMLSChema se establecen comentarios para ayudar a su comprension
+![Alt text](image-18.png)
+
+Aqui se ve como se introduce el comentario
