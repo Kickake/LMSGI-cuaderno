@@ -161,12 +161,12 @@ Las **Entidades** sirven para establecer un valor en el dtd, existen entidades *
 
 ![Alt text](image-15.png)
 
-Anotaciones nos permite identificar el formato de entidades que no son xml y que no se van a procesar, pueden ser publicas o prividas
+**Anotaciones** nos permite identificar el formato de entidades que no son xml y que no se van a procesar, pueden ser publicas o prividas
 
-Elementos sirve para definir una estructura de uno o varios elmentos que contiene el documento, podemos definir una cardinalidad a cada elemento 
+**Elementos** sirve para definir una estructura de uno o varios elmentos que contiene el documento, podemos definir una cardinalidad a cada elemento 
 ![Alt text](image-16.png)
 
-Atributos en dtd sirve para dar mas informacion sobre el elemento
+**Atributos** en dtd sirve para dar mas informacion sobre el elemento
 
 ![Alt text](image-17.png)
 
