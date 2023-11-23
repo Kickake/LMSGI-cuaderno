@@ -159,6 +159,7 @@ Es una serie de reglas que van a permitir validar que la estructura de un docume
 
 Las **Entidades** sirven para establecer un valor en el dtd, existen entidades **internas** definidas en el propio dtd y entidades **externas** definidas fuera del dtd
 
+
 ![Alt text](image-15.png)
 
 **Anotaciones** nos permite identificar el formato de entidades que no son xml y que no se van a procesar, pueden ser publicas o prividas
