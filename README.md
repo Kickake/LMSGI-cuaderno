@@ -175,8 +175,16 @@ Aqui tenemos un ejemplo de un atributo en dtd
 ### XMLSchema
 Definición Es un lenguaje de esquema utilizado para describir la estructura y las restricciones de los contenidos de los documentos XML
 
-Estructura Básica
-Elementos Locales y Globales
+La Estructura Básica es la siguiente:
+* Elementos
+* restricciones
+* subElemntos
+* Atributos
+* Comentarios
+
+Los **elementos** se pueden clasificar en:
+ * **Locales:** Hijos de los elementos que no son el elemento raíz y  sólo se usan una vez.
+ * **Globales:** Hijos del elemento raíz y pueden ser reutilizados.
 
 **Elementos Simples** Guarda un texto, numero, fecha,etc.. se debe establecer el atributo type o utiizar una restriccion
 
