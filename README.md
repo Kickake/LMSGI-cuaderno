@@ -131,7 +131,7 @@ Los **atributos** son informacion adicional dentro de un elemento que tiene que 
 ![Alt text](image-9.png)
 
 
-Un comentario añade informacion extra sin que tenga que ser procesada, suele utilizarse para ayudar y guiar al usuario
+Un **comentario** añade informacion extra sin que tenga que ser procesada, suele utilizarse para ayudar y guiar al usuario
 
 ![Alt text](image-10.png)
 
