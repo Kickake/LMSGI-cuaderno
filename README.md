@@ -218,3 +218,76 @@ Comentarios en XMLSChema se establecen comentarios para ayudar a su comprension
 ![Alt text](image-18.png)
 
 Aqui se ve como se introduce el comentario
+
+# Sistemas de gestión de información:
+Un **Sistema de gestión de Información**, son programas informáticos, diseñados para dar soporte a cualquier de los procesos que se realizan en una empresa. Todos los sistemas de gestión de información pueden ejecutarse tanto en máquinas locales, como en otras pertenecientes a terceras empresas mediante la computación en la nube.
+* Características 
+   * Búsqueda y seguimiento de la redundancia de los datos
+   * Consistencia en la información almacenada
+   * Integridad de la información asegurada
+   * Seguridad de la base de datos
+
+
+
+
+* Tipos: Podemos encontrar tres tipos de sistemas de gestion de la informacion
+  * **ERP**(Sistema de planificación de recursos empresariales o Enterprise Resource Planning):  Es un sistema informático que integra los múltiples procesos específicos que hay en una empresa. Un ERP, puede considerarse un producto software que cubren una necesidad pero sin estar dirigido a una empresa en concreto que ,normalmente, puede ser personalizado
+
+  * **CRM** (Customer RelationShip Management): Es un tipo de Sistema de Gestión de información específico para atender todo lo relacionado con los clientes y la relación con la propia empresa. Es una herramienta fundamental en la gestión del activo más importante para cualquier empresa
+
+  * **BI** (Bussines itelligence): Son una serie de tecnologias que tienen un objetivo en común que es ayudar en el proceso de dirección de una empresa
+# ERP
+* **Características**
+  * Funcional
+  * Modular
+  * Centralizado
+  * Robusto
+  * Seguro
+  * Mantenible
+  * Adaptable
+
+* **Beneficios**
+  * Optimiza los procesos de gestión
+  * Mejora la productividad
+  * Simplificación de las tecnologías de la información de la compañia
+  * Mejora en los procesos de decisión como consecuencia de la centralización de la información y del acceso a los datos en tiempo real.
+  * Reduce los costes de gestión de la información.
+  * Facilitan la escalabilidad del sistema.
+  * Permiten incrementar la seguridad de la información
+
+* **Ejemplo ERP Más conocidos**
+  * SAP
+  * NetSuite / ERP Cloud (Oracle). --> -->
+  * SAGE
+  * Microsoft Dynamics 365 (Microsoft).
+  * IFS
+  * ERPNext (libre)
+  * Odoo (Libre)
+  * Apache OfBiz (libre)
+  * WebERP (Libre)
+# CRM
+* **Características**
+  * Gestión de contactos
+  * Clasificación de los clientes
+  * Unificación de canales
+  * Automatización y seguimiento de flujos de trabajo
+  * Gestión de redes sociales
+* **Beneficios**
+  * Facilitan la toma de decisiones
+  * Incrementan las oportunidades de venta
+  * Ayudan en el proceso de mejora continua
+
+* **Ejemplos CRM Más conocidos**
+  * Salesforce
+  * Microsoft Dynamics 365 CRM (Microsoft)
+  * Zoho CRM
+  * SAP Customer Experience
+  * Oracle Customer Experience
+# BI
+## Definición y componentes
+* Se compone de los siguientes sistemas que ayudan a este proceso
+  * **ETL** (Extract, Transform and load): Es el proceso por el cual se obtiene información de las operaciones diarias realizadas por la empresa, se procesan y se guardan en un almacén de datos
+  * **Data WareHouse** (almacén de datos): es el conjunto de datos de una compañía que permiten una correcta toma de decisiones. Este conjunto de datos, puede almacenar no solo los datos en bruto, sino también los procesados por un ETL
+  * **OLAP** (Online Analytical Processing o procesamiento analítico en línea): Nos facilita el acceso a los datos almacenados en el Data Warehouse para alimentar el proceso de minado de datos (Data Mining)
+  * **Data Mining** (Minado de datos); es un proceso que consiste en buscar patrones repetitivos en grandes volúmenes de datos; normalmente obtenidos desde los almacenes de datos (data warehouse)
+  * **DashBoard** (Cuadro de mandos): Es un proceso o normalmente una aplicación que permite de forma visual, ver datos en conjunto de forma general, para poder ver de un vistazo los datos requeridos e incluso hacer algunas acciones
