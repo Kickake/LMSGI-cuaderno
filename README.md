@@ -292,20 +292,22 @@ Un **Sistema de gestión de Información**, son programas informáticos, diseña
   * **Data Mining** (Minado de datos); es un proceso que consiste en buscar patrones repetitivos en grandes volúmenes de datos; normalmente obtenidos desde los almacenes de datos (data warehouse)
   * **DashBoard** (Cuadro de mandos): Es un proceso o normalmente una aplicación que permite de forma visual, ver datos en conjunto de forma general, para poder ver de un vistazo los datos requeridos e incluso hacer algunas acciones
 
-  HTML y su evolución
-XHTML diferencias, ventajas y desventajas con respecto a HTML
-Estructura de un documento HTML
-Cabecera HTML
-Title
-Meta
-Style
-Link
-Script
-Cuerpo HTML
-Elementos de Bloque
+  # HTML y su evolución
+  HTML fue diseñado inicialmente en el año 1991 como parte del CERN, ha tenido
+varias versiones y diferentes implementaciones; veamos algunas de ellas:
+# XHTML diferencias, ventajas y desventajas con respecto a HTML
+* Estructura de un documento HTML
+* Cabecera HTML
+* Title
+* Meta
+* Style
+* Link
+* Script
+# Cuerpo HTML
+## Elementos de Bloque
 Definir los diferentes elementos de bloque existentes.
-Elementos de Línea
+## Elementos de Línea
 Definir los diferentes elementos de línea existentes.
 Listas, tablas y Formularios
-Elementos Multimedia para HTML5
+## Elementos Multimedia para HTML5
 Herramientas de edición y desarrollo web.
