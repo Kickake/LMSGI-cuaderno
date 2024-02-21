@@ -295,19 +295,180 @@ Un **Sistema de gestión de Información**, son programas informáticos, diseña
   # HTML y su evolución
   HTML fue diseñado inicialmente en el año 1991 como parte del CERN, ha tenido
 varias versiones y diferentes implementaciones; veamos algunas de ellas:
+![Alt text](image-23.png)
+![Alt text](image-25.png)
 # XHTML diferencias, ventajas y desventajas con respecto a HTML
-* Estructura de un documento HTML
-* Cabecera HTML
-* Title
-* Meta
-* Style
-* Link
-* Script
+### Diferencias con html
+* Sintaxis XML
+
+* Documentos bien formados
+
+* Mayúsculas y minúsculas
+
+* Atributo xmlns
+
+* Compatibilidad con navegadores
+
+* Procesamiento del documento
+
+* Uso de elementos vacíos
+### Ventajas con html
+* Sintaxis más Estricta
+
+* Consistencia en el Cierre de Etiquetas
+
+* Mejor Compatibilidad con Herramientas XML
+
+* Interoperabilidad con XML
+
+* Mejora en la Calidad del Código
+
+* Mayor Legibilidad y Mantenibilidad
+### Desventajas con html
+* Menos Tolerante a Errores
+
+* Curva de Aprendizaje Mayor
+
+* Compatibilidad con Navegadores Antiguos
+
+* Más Verboso
+
+* Menos Adopción Generalizada
+
+* Requiere un Mime Type Específico
+## HTML 
+* Estructura de un documento HTML: Podemos Observar lo siguiente
+  * Doctype para validar el documento.
+  * Cabecera
+  * Cuerpo
+  * Etiquetas tanto de apertura como de cierre
+
+  ![Alt text](image-26.png)
+  
+  * Como podemos ver en HTML comienza siempre por la etiqueta html.
+  * Esta etiqueta será la raíz del documento; permite tener una serie de atributos comunes a todas las etiquetas HTML.
+
+![Alt text](image-27.png)
+
+  * Entidades: En HTML se pueden utilizar entidades al igual que XML para representar caracteres especiales (o las vocales con tilde).
+
+  ![Alt text](image-28.png)
+
+  Comentarios
+  * Al igual que en XML, se pueden utilizar comentarios.
+
+![Alt text](image-29.png)
+
+* Cabecera HTML:La cabecera del documento HTML permite establecer información del propio
+documento como metadatos o scripts o estilos del mismo.
+La cabecera HTML comienza por <head> y termina por </head>. Incluye los
+siguientes elementos:
+  * Title: Indica el título de la página
+
+![Alt text](image-30.png)
+
+  * Meta: Indica los metadatos del documento.
+
+![Alt text](image-31.png)
+
+  * Style: Indica el estilo a utilizar.
+
+![Alt text](image-32.png)
+
+  * Link: Enlaza con otro documento (estilos).
+
+![Alt text](image-33.png)
+
+  * Script: Añade un Script basado en JavaScript u otros lenguajes de Script.
+
+![Alt text](image-34.png)
+
 # Cuerpo HTML
+Uno de los elementos principales de HTML es el cuerpo o body; es donde se
+mostrarán todos los datos que serán representados al usuario.
+Dentro del cuerpo de HTML podemos encontrar dos tipos de etiquetas o elementos:
+
+![Alt text](image-35.png)
+
 ## Elementos de Bloque
-Definir los diferentes elementos de bloque existentes.
+   * Elementos de Bloque: Ocupan todo el espacio de su elemento padre (contenedor) y salvo excepciones permiten contener otros elementos.
+     * Header: La etiqueta header, indica la cabecera de la web; normalmente almacena el encabezado de una web o sección; suele ser común añadir un logo y título (encabezado) de la web.
+
+     * Nav: La etiqueta nav etiqueta está concebida para albergar enlaces de navegación; estos enlaces pueden ser internos o externos. Suele encontrarse después de la etiqueta header. Normalmente se incluye una lista para dichos enlaces
+     * Main: La etiqueta main delimita el espacio del contenido principal; dentro puede haber distintas secciones y artículos. Es importante que haya una única etiqueta main para delimitar este espacio, y que esté bien estructurada, con distintas secciones. Dentro de esta etiqueta podemos encontrar las etiquetas section y article.
+     * Aside: La etiqueta aside, permite definir un contenido auxiliar dentro del contenido principal de tal forma que sea un contenido fijo que muestre o un menú o información de interés general de la página.
+     * Section: La etiqueta section, delimita las distintas secciones de una página; sobre todo se utiliza para separar y dar significado semántico a la web
+     * Article: La etiqueta article, almacena información como una unidad independiente; como puede ser un artículo de una noticia o un comentario. No tiene una representación como tal pero sí es importante semánticamente.
+     * Footer: La etiqueta footer delimita el pie de una página; normalmente delimita enlaces generales de la página o información sobre la misma, como puede ser contacto o dirección de correo.
+     * Div:La etiqueta div, permite almacenar un contenedor de tal forma que podamos almacenar conjunto de contenedores con contenido de forma personalizada
 ## Elementos de Línea
-Definir los diferentes elementos de línea existentes.
-Listas, tablas y Formularios
+   * Elementos de línea: Ocupan sólo el espacio que ocupa su contenido; contienen datos u otros elementos de línea.
+     * Las listas, son elementos que permiten mostrar información de forma estructurada normalmente para diferenciar diferentes elementos o características. En HTML, podemos diferenciar 3 tipos:
+       * Desordenadas: Las listas desordenadas (Elemento ul) permiten mostrar información de forma estructurada mostrando las llamadas viñetas Aunque se puede cambiar el formato de estas utilizando CSS.
+       * Ordenadas: Una lista ordenada (ol), si tiene una numeración para cada elemento. Esta numeración puede cambiarse utilizando los siguientes atributos:
+           * start: indica el inicio de la lista.
+           * reversed: indica si es ascendente (valor false por defecto) o descendente (valor true).
+           * type: Indica el tipo de lista:
+             * a: Letras Minúsculas.
+             * A: Letras Mayúsculas.
+             * i: Números Romanos en Minúsculas.
+             * I: Número Romanos en Mayúsculas.
+             * 1: Para Números.
+       * De Definición: Las listas de definición (dl) permiten mostrar diferentes definiciones de términos a partir de claves y su correspondiente valor. Se componen de los siguientes elementos:
+           * dt: Término de la definición; en una lista puede haber varios términos para una definición.
+           * dd: Definición; indica la definición de los diferentes términos.
 ## Elementos Multimedia para HTML5
-Herramientas de edición y desarrollo web.
+
+  * Audio: El elemento audio, permite insertar un componente de sonido que esta soportado por la mayoría de navegadores; tiene los siguientes atributos:
+      * src: URI del recurso; adicionalmente, se puede añadir un elemento source.
+      * preload: indica cómo se realizará la precarga; los valores son none (no se precarga), metadata (se precargan los metadatos) y auto (a criterio del navegador).
+      * autoplay: reproducción automática.
+      * loop: reproducción en bucle.
+      * muted: silencia el componente.
+      * controls: proporciona una interfaz para el elemento.
+  * Video: De forma análoga, el elemento video, incrusta un elemento visual para reproducir un vídeo. Tiene los siguientes elementos:
+      * src: URI del recurso (también puede utilizarse source).
+      * poster: URI de la imagen a mostrar mientras se carga.
+      * playsinline: indica el vídeo dentro de su área de reproducción no a pantalla completa.
+      * width y height: indican ancho y alto para la reproducción.
+
+ * Track: El elemento track, puede utilizarse junto a los elementos audio o video;permite añadir información a dicho elemento, como pueden ser subtitulos. Tiene los siguientes atributos:
+     * default: elemento track a utilizar por defecto.
+     * kind: tipo de pista. subtitles (subtítulos), captions (transcripciones), descriptions (descripciones), chapters (capítulos) y metadata (metadatos no visibles).
+     * label: título que describe la pista.
+     * src: URI del elemento
+     * srclang: idioma del elemento.
+ * img: Elemento img es el que representa una imagen en HTML; normalmente a partir de un elemento externo representado por el atributo src. Permite muchos formatos de imagen como puede ser jpg,png,svg,etc… Tiene los siguientes atributos:
+     * alt: texto con información alternativa; este texto es importante para la accesibilidad.
+     * src: URI del recurso de imagen.
+     * srcset y sizes: permite asignar diferentes recursos para que el navegador cargue la versión más adecuada.
+     *  usemap: referencia un mapa definido por el elemento map.
+     *  ismap: Indica que la imagen es parte de un mapa del lado del servidor.
+     *  width y height: ancho y alto de la imagen.
+     *  decoding: indica cómo se decodificar la imagen; tiene los valores async(asíncrono),sync(síncrono) y auto (el navegador decide).
+     * loading: indica como cargará la imagen; tiene los valores eager (inmediatamente) o lazy (carga a posteriori)
+
+ * map: El elemento map, permite realizar imágenes interactivas; de tal forma que podemos definir áreas de una imágen con enlaces o elementos los que ir. Normalmente son referenciados por parte de una imagen; y contienen una serie de elementos area.
+
+ * svg: Normalmente, se trabajan con imágenes de mapa de bits (matrices de pixeles); pero estas tienen un inconveniente y es que se pueden deformar si se escalan. Por eso, se pueden trabajar con imágenes vectoriales. El elemento svg, permite trabajar con este tipo de imágenes a partir de primitivas expresadas en xml.
+
+ * canvas: El elemento canvas, proporciona un lienzo sobre el que mostrar gráficos; normalmente utilizando lenguajes de script como JavaScript. Tiene los siguientes atributos:
+     * width: ancho del elemento.
+     * height: alto del elemento.
+ * embed: El elemento embed, representa un contenido incrustado por un plugin o elemento externo; dependiendo del elemento o contenido será más o menos soportado por el navegador.
+ * iframe: Un iframe, es un contenido de navegación anidado. Es decir, es un documento HTML externo incrustado. Tiene los siguientes atributos:
+     * src: URI del recurso.
+     * srcdoc: contiene el código HTML a mostrar en el elemento iframe (aunque puede estar dentro de la etiqueta).
+     * sandbox: Permite proporcionar restricciones al documento incrustado en el elemento iframe.
+     * allow: directivas referentes a permisos.
+     * allowfullscreen: si existe permite establecer el tamaño a pantalla completa
+     * width y height: alto y ancho en píxeles.
+     * loading: puede tomar lazy o eager que se carga se haga visible.
+ * El elemento iframe, es muy utilizado por ejemplo para incrustar vídeos ycontenido de webs como youtube u otras páginas.
+ * object: El elemento object permite incrustar un elemento externo que puede ser una imagen u cualquier otro contenido relacionado. Puede tener los siguientes atributos:
+     * data: contiene el recursos que se ha de mostrar.
+     * type: tipo MIME.
+     * name: nombre que puede ser utilizado para referenciar a este recurso.
+     * usermap: referencia al atributo name de un elemento map.
+     * form: referencia al atributo id de un formulario.
+     * width y height: ancho y alto del elemento.
