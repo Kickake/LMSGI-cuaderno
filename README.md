@@ -480,95 +480,122 @@ Versiones
 CSS es mantenido por la W3C al igual que HTML y XML. Comenzó en 1996 y hoy
 en día es indispensable para cualquier página web. Ha habido varias versiones de
 CSS
+
 ![Alt text](image-36.png)
+
 Como se agrega CSS a un documento HTML.
 Se puede agregar de la siguiente forma: 
-1. Como Documento externo usando una etiqueta link
+Como Documento externo usando una etiqueta link
 link rel=”stylesheet” href=”estilos.css” 
-2. Como elemento style dentro de la cabecera del documento
+Como elemento style dentro de la cabecera del documento
 style
 …
 /style
-3. Como elemento en línea usando el atributo style
+Como elemento en línea usando el atributo style
 p style=”color:white”>.../p
 
-Selectores CSS (incluyendo psecudoclases y pseudoelementos).
+* **Selectores CSS** (incluyendo psecudoclases y pseudoelementos).
 Como hemos comentado, un selector no es más que una regla para seleccionar
 uno o varios elementos que modificarán sus reglas; podemos dividirlos en los
 siguientes tipos:
-● Universal: selecciona todos los elementos; ejemplo: *
-● Tipo: Tipo de elemento: ejemplo: h1.
-● Clase: elementos de una determinada clase: .clase.
-● Identificador: elemento con un identificador en concreto; ejemplo:
-#elemento.
-● Atributo: elemento con un atributo en concreto; por ejemplo:
-input[type=”submit”].
-6. Selectores
+   * Universal: selecciona todos los elementos; ejemplo: *
+   * Tipo: Tipo de elemento: ejemplo: h1.
+   * Clase: elementos de una determinada clase: .clase.
+   * Identificador: elemento con un identificador en concreto; ejemplo: #elemento.
+   * Atributo: elemento con un atributo en concreto; por ejemplo: input[type=”submit”].
+   * Selectores
 También podemos realizar combinaciones o agrupaciones:
-● Agrupación: aplicará las reglas a todos esos elementos o clases; ejemplo:
-h1,h2,h3.
-● Combinación: indica que sólo aplicará a la combinación de varios elementos;
-podemos clasificarlos en los siguientes casos:
-○ Hermanos: Elemento hermano a otro; ejemplo: A~B.
-○ Hijos: Elemento Hijo a otro; ejemplo: A>B.
-○ Hermanos adyacentes: Elemento hermano a otro pero
+   * Agrupación: aplicará las reglas a todos esos elementos o clases; ejemplo: h1,h2,h3.
+   * Combinación: indica que sólo aplicará a la combinación de varios elementos; podemos clasificarlos en los siguientes casos:
+     * Hermanos: Elemento hermano a otro; ejemplo: A~B.
+     * Hijos: Elemento Hijo a otro; ejemplo: A>B.
+     * Hermanos adyacentes: Elemento hermano a otro pero
 
-Pseudoclases
-Una pseudoclase es un modificador que se añade a un selector para que solo se
-aplique cuando dicho elemento pase a un estado específico; normalmente se
-establece con la siguiente sintaxis:
-selector:pseudoclase{
-color: white;
-}
+ * **Pseudoclases:** Una pseudoclase es un modificador que se añade a un selector para que solo se aplique cuando dicho elemento pase a un estado específico; normalmente se establece con la siguiente sintaxis:
 
-Pseudoclases
-Algunas de las pseudoclases son:
-● :active: cuando el elemento está activo.
-● :checked: cuando un checkbox está activo.
-● :disabled: cuando el elemento está deshabilitado.
-● :focus: Cuando el elemento tiene el foco.
-● :hover: Cuando el ratón pasa por encima.
-● :visited: Cuando el enlace apunta a una dirección ya visitada
+   * :active: cuando el elemento está activo.
+   * :checked: cuando un checkbox está activo.
+   * :disabled: cuando el elemento está deshabilitado.
+   * :focus: Cuando el elemento tiene el foco.
+   * :hover: Cuando el ratón pasa por encima.
+   * :visited: Cuando el enlace apunta a una dirección ya visitada
 anteriormente.
 
-Tipos de datos y unidades en CSS.
+* **Pseudoelementos**
+Un Pseudoelemento se añade a un selector para establecer el estilo de parte de
+dicho elemento; por ejemplo la primera letra o palabra; Los pseudoelementos
+pueden ser:
+   * ::after: Permite añadir contenido después del elemento.
+   * ::before: Permite añadir contenido antes del elemento.
+   * ::first-letter: Primera letra del primer bloque de texto.
+   * ::first-line: Primera línea del primer bloque de texto.
+   * ::selection: Modificar el estilo cuando hay parte del contenido
+seleccionado.
 En CSS podemos encontrar los siguientes tipos de datos:
-● Entero: Números enteros positivos y negativos.
-● Número: número decimal.
-● Dimensión: un número con con una dimensión asociada; puede ser deg
-(grados), s(segundos) o px(píxeles).
-● Porcentaje: Indica un porcentaje o fracción se indica con el símbolo %.
-● Colores: indican un color que puede ser uno predeterminado (green, red,
-white…) valor RGB (rgba(22,33,11,20)), hexadecimal (#112233) o HSL (Hue
-Saturation Lightness) (hsl(0,100%,50%)).
-5. Tipos de Datos y Unidades
+   *Entero: Números enteros positivos y negativos.
+   * Número: número decimal.
+   * Dimensión: un número con con una dimensión asociada; puede ser deg (grados), s(segundos) o px(píxeles).
+   * Porcentaje: Indica un porcentaje o fracción se indica con el símbolo %.
+   * Colores: indican un color que puede ser uno predeterminado (green, red, white…) valor RGB (rgba(22,33,11,20)), hexadecimal (#112233) o HSL (Hue Saturation Lightness) (hsl(0,100%,50%)).
+
 Por otro lado, existen diferentes Unidades que pueden clasificarse en Absolutas o
 relativas.
-Unidades Absolutas:
-● px: píxeles.
-● cm: centímetro.
-● mm: milímetro.
-● Q: Cuarto de milímetro.
-● in: Pulgada
-● pt: Puntos (1/72 in).
-● pc: Picas (1/16 in).
-5. Tipos de Datos y Unidades
-Unidades Relativas:
-● em: Tamaño letra del padre.
-● ex: Altura de la fuente del elemento.
-● ch: Ancho del carácter.
-● rem: Tamaño de letra del elemento Raíz.
-● lh: Altura de la línea del elemento.
-● vw: 1% del ancho de ventana gráfica.
-● vh: 1% del alto de la ventana gráfica.
-● vmin: 1% de la dimensión más pequeña de la ventana gráfica.
-● vmax: 1% de la dimensión más grande de la ventana gráfica.
+* **Unidades Absolutas:**
+   * px: píxeles.
+   * cm: centímetro.
+   * mm: milímetro.
+   * Q: Cuarto de milímetro.
+   * in: Pulgada
+   * pt: Puntos (1/72 in).
+   * pc: Picas (1/16 in).
+* **Unidades Relativas:**
+   * em: Tamaño letra del padre.
+   * ex: Altura de la fuente del elemento.
+   * ch: Ancho del carácter.
+   * rem: Tamaño de letra del elemento Raíz.
+   * lh: Altura de la línea del elemento.
+   * vw: 1% del ancho de ventana gráfica.
+   * vh: 1% del alto de la ventana gráfica.
+   * vmin: 1% de la dimensión más pequeña de la ventana gráfica.
+   * vmax: 1% de la dimensión más grande de la ventana gráfica.
 Propiedades CSS:
 
 
-Modelo de cajas.
-Flex y Grid.
-Float y position.
-Propiedades de texto.
-Propiedades de Listas.
-Diseño adaptativo (Media Queries).
+* **Modelo de cajas:** Es un módulo CSS que define cajas rectangulares, incluyendo sus rellenos y márgenes, que son generadas para los elementos y que se disponen de acuerdo al modelo de formato visual
+Flex: Se mostrará como un bloque pero establece el modelo denominado flexbox;
+estableciendo una dirección por la que fluye. Se utiliza la propiedad
+flex-direction, para ver en qué dirección fluirá
+Grid: Se mostrará como bloque pero establece una cuadrícula. Se utiliza la propiedad
+grid-template-columns para establecer la cuadrícula y sus dimensiones.
+
+* **Float:** Se puede establecer el comportamiento de dónde aparecerán los elementos y su
+contenido con la propiedad float; tiene los siguientes valores:
+   * left: empuja al elemento a la izquierda.
+   * right: empuja al elemento a la derecha.
+   * none: no empuja al elemento.
+* **Position:** También es importante ver que la posición de un elemento pueda ser dependiendo
+de su contenedor o por el mismo con la propiedad position; tiene los siguientes
+valores:
+   * static: valor por defecto; se posiciona siguiendo el flujo normal.
+   * relative: Permite establecer su posición de forma relativa al anterior elemento.
+   * absolute: Establece la posición absoluta con respecto al documento.
+   * fixed: El elemento deja de seguir el flujo normal del documento.
+   * Sticky: EL elemento se posiciona siguiendo el flujo normal y se pueden
+establecer la posición límite con su contenedor.
+
+* **Propiedades de texto:** Podemos establecer una serie de propiedades para dar formato al texto:
+   * color: color del texto.
+   * font-family: el tipo de letra; se establece como una lista con prioridad.
+   * font-size: Tamaño del texto.
+   * font-weight: Determina el grosor del trazo.
+  * text-align: Determina la alineación del texto; tiene los valores: left, right, center y justify.
+  * letter-spacing: espacio entre letras.
+* **Propiedades de Listas:** Algunas de las propiedades que podemos establecer las listas son:
+  * list-style-type: Indica el tipo de viñeta a utilizar; tiene los valores: disc, circle, square, decimal, lower-roman, upper-roman, lower-greek, lower-latin, lower-latin y none.
+   * list-style-position: establece la posición de las viñetas; puede ser
+inside u outside.
+   * list-style-image: Establece una viñeta como una imagen pasando una URL.
+* **Diseño adaptativo (Media Queries):** Hoy en día existen muchos dispositivos capaces de navegar por la web; desde ordenadores, tablets,
+dispositivos móviles e incluso ya gafas de realidad aumentada.
+Es por ello que se necesita adaptar el CSS para cada pantalla; por lo que se utilizan las llamadas media
+queries; que permiten seleccionar una serie de reglas dependiendo del tamaño de la pantalla.
