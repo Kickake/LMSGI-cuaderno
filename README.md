@@ -599,3 +599,61 @@ inside u outside.
 dispositivos móviles e incluso ya gafas de realidad aumentada.
 Es por ello que se necesita adaptar el CSS para cada pantalla; por lo que se utilizan las llamadas media
 queries; que permiten seleccionar una serie de reglas dependiendo del tamaño de la pantalla.
+
+## 1. Sindicación de contenidos en la web.
+<p>La sindicación de contenidos en la web es un proceso mediante el cual se distribuye y comparte contenido digital de un sitio web a través de otros sitios web o plataformas en línea. Esto se logra mediante la utilización de formatos estándar de sindicación, como RSS (Really Simple Syndication) o Atom.</p>
+
+## 2. Sindicación de contenidos
+<p>La sindicación de contenidos es un proceso mediante el cual se comparten y distribuyen contenidos digitales, como artículos, noticias, blogs, podcasts, videos y otros tipos de información, a través de diferentes plataformas en línea. Este proceso se lleva a cabo utilizando formatos estándar de sindicación, como RSS (Really Simple Syndication), Atom o JSON Feed.</p>
+
+## 3. RSS (Sintaxis y ejemplo)
+<p>RSS (Really Simple Syndication) es un formato de sindicación web que se utiliza para distribuir y compartir contenido digital de manera estandarizada. Se utiliza principalmente en blogs, sitios de noticias y otros sitios web que publican contenido periódicamente.</p>
+<p>Las fuentes RSS contienen resúmenes o extractos de las publicaciones de un sitio web, junto con metadatos como el título, la fecha de publicación y un enlace al contenido completo. Estas fuentes se actualizan automáticamente cada vez que se publica nuevo contenido en el sitio web original.</p>
+<p>Vamos a comentar la sintaxis de RSS:
+* El elemento raíz siempre será <rss> que tendrá el atributo version con el
+valor 2.0.
+* Este elemento tendrá un subelemento llamado <channel> por cada canal de
+suscripción que tenga la web.</p>
+ 
+ ![image](https://github.com/Kickake/LMSGI-cuaderno/assets/146243409/8ecf189f-8cec-4252-a287-1191b945c7fc)
+ ![image](https://github.com/Kickake/LMSGI-cuaderno/assets/146243409/56c0f729-56bd-479d-b0e4-efa354a244a9)
+ ![image](https://github.com/Kickake/LMSGI-cuaderno/assets/146243409/6b09f6e3-8002-4213-a710-e8ed9e5e0de3)
+
+## 4. Atom (sintaxis y ejemplo)
+<p>Atom es otro formato de sindicación web, similar a RSS (Really Simple Syndication). Al igual que RSS, Atom es un estándar XML utilizado para compartir y distribuir contenido actualizado de manera regular, como blogs, noticias y otros tipos de contenido en línea.</p>
+<p>Algunas de las diferencias entre Atom y RSS incluyen:</p>
+
+* Estructura más definida: Atom tiene una estructura más definida y formal que RSS, lo que lo hace más flexible y extensible para adaptarse a diferentes tipos de contenido y necesidades.
+* Soporte para metadatos: Atom incluye un soporte más robusto para metadatos, lo que permite una descripción más detallada del contenido, como la autoría, las etiquetas y la información de derechos de autor.
+* Mayor claridad en la especificación: Atom tiene una especificación más clara y bien definida en comparación con RSS, lo que facilita su implementación y desarrollo de herramientas relacionadas.
+ ![image](https://github.com/Kickake/LMSGI-cuaderno/assets/146243409/579bd0e5-99ea-4464-99b7-9758168d1148)
+ ![image](https://github.com/Kickake/LMSGI-cuaderno/assets/146243409/469b0a87-6950-4ff1-b01a-d5d1f88a11e8)
+ ![image](https://github.com/Kickake/LMSGI-cuaderno/assets/146243409/11ed4d42-c897-4817-8a62-5eb89c852d95)
+ ![image](https://github.com/Kickake/LMSGI-cuaderno/assets/146243409/78322519-e51c-44d8-93e4-0040c74b4e2a)
+ ![image](https://github.com/Kickake/LMSGI-cuaderno/assets/146243409/c119ad22-7a66-4ef3-8507-9356185249ac)
+
+## 5. Herramientas de validación de canales de sindicación
+<p>Podemos utilizar validadores para ver que realmente nuestro canal de sindicación
+funciona correctamente:</p>
+ (https://validator.w3.org/feed/#validate_by_input)
+ 
+## 6. Añadir canales de sindicación a una web.
+<p>Los ficheros RSS o Atom, pueden ser añadidos a una web HTML, usando un enlace
+<a> como si de un fichero se tratara.
+Sin embargo, existe una forma mejor que sobre todo da contenido semántico; y es
+utilizar la etiqueta <link> en la cabecera <head>.</p>
+ 
+ ![image](https://github.com/Kickake/LMSGI-cuaderno/assets/146243409/a2b11fba-50db-4599-b78c-0fa55a5f99d1)
+
+
+## 7. Agregadores de canales
+<p>Podemos encontrar muchas aplicaciones que son capaces de leer este tipo de
+formato; pudiendo ser tanto locales; como en línea. Esta aplicaciones se llaman
+agregadores de contenido:</p>
+
+* Agregadores de contenido locales: NewsFox, RSSOwl.
+* Agregadores de contenido en línea: Feedly, The Old Reader.
+* Agregadores de contenido como extensión; estos se añaden como extensiones o plugins al navegador.
+
+## 8. Canales de sindicación
+<p>Los canales de sindicación, también conocidos como "feeds" o "flujos", son recursos web que proporcionan actualizaciones periódicas sobre contenido específico, como noticias, blogs, podcasts o vídeos. Estos canales se basan en estándares de sindicación web como RSS (Really Simple Syndication) o Atom.</p>
