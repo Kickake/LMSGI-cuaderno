@@ -657,3 +657,133 @@ agregadores de contenido:</p>
 
 ## 8. Canales de sindicación
 <p>Los canales de sindicación, también conocidos como "feeds" o "flujos", son recursos web que proporcionan actualizaciones periódicas sobre contenido específico, como noticias, blogs, podcasts o vídeos. Estos canales se basan en estándares de sindicación web como RSS (Really Simple Syndication) o Atom.</p>
+
+
+# Introducción a Python
+* Python (definición del lenguaje)
+  <p>El lenguaje Python es un lenguaje de programación de alto nivel, interpretado y de propósito general. Fue creado por Guido van Rossum y lanzado por primera vez en 1991. Python se destaca por su sintaxis clara y legible, lo que lo hace ideal para principiantes, así como para profesionales en campos como la ciencia de datos, inteligencia artificial, desarrollo web y más.
+
+Python es conocido por su enfoque en la legibilidad del código, lo que significa que está diseñado para ser fácil de entender y escribir. Utiliza una sintaxis limpia y usa indentación para delimitar bloques de código, en lugar de llaves u otros caracteres como lo hacen otros lenguajes.
+
+Además de su sintaxis limpia, Python cuenta con una amplia biblioteca estándar que proporciona una amplia gama de módulos y funciones para tareas comunes, lo que facilita el desarrollo de aplicaciones rápidas y eficientes.</p>
+* Variables
+  En Python, una variable es un contenedor que se utiliza para almacenar valores de datos. Puedes pensar en una variable como un nombre que se refiere a un valor específico en la memoria de la computadora. Cuando creas una variable en Python, le estás asignando un nombre y un valor.
+
+Por ejemplo, aquí hay una variable llamada x que contiene el valor 10:
+x = 10
+
+* Tipos de datos
+  Python tiene varios tipos de datos integrados que puedes usar para almacenar diferentes tipos de valores. Aquí tienes algunos de los tipos de datos más comunes en Python:
+  
+  * Enteros (int): Representan números enteros, positivos o negativos, sin parte decimal. Por ejemplo: 5, -10, 1000.
+  * Flotantes (float)
+  * Cadenas de texto (str)
+  * Tuplas (tuple)
+  * Diccionarios (dict)
+  * Conjuntos (set):
+* Estructuras de controlLas
+  Las estructuras de control en Python son bloques de código que te permiten controlar el flujo de ejecución de un programa. Hay tres tipos principales de estructuras de control en Python:
+  
+ * Condicionales
+   Permiten ejecutar cierto bloque de código si se cumple una condición o varias condiciones. Pueden estar anidadas para manejar múltiples condiciones.
+ * Repetitivas
+   Las estructuras de control repetitivas, también conocidas como bucles, son fundamentales en la programación para ejecutar una o más instrucciones de forma repetida según una condición dada. En Python, tienes dos tipos principales de bucles: el bucle while y el bucle for
+* Listas
+  una lista es una estructura de datos que te permite almacenar y organizar una colección ordenada de elementos. Las listas son flexibles y pueden contener elementos de diferentes tipos, como números, cadenas, booleanos, otras listas e incluso objetos más complejos.
+* Tuplas
+  una tupla es una colección ordenada e inmutable de elementos. A diferencia de las listas, las tuplas no pueden modificarse una vez creadas, lo que significa que no puedes agregar, eliminar o cambiar elementos después de haber definido la tupla. Sin embargo, al igual que las listas, las tuplas pueden contener elementos de diferentes tipos, como números, cadenas, booleanos, otras tuplas, etc.
+
+Las tuplas se definen utilizando paréntesis () y separando los elementos con comas. Aunque no es obligatorio, es una práctica común encerrar los elementos entre paréntesis para mayor claridad.
+# JSON
+* Definición
+  JSON significa JavaScript Object Notation. Es un formato de intercambio de datos ligero y legible para humanos que se utiliza para transmitir datos estructurados entre un servidor y un cliente web, o entre diferentes sistemas. Se basa en la sintaxis de objetos literales de JavaScript, lo que lo hace fácil de entender y trabajar para desarrolladores familiarizados con JavaScript. JSON se utiliza comúnmente en aplicaciones web y servicios web para enviar datos entre el servidor y el cliente, así como para el almacenamiento de datos estructurados. Es especialmente popular en el desarrollo de aplicaciones web y APIs debido a su simplicidad y su capacidad para ser fácilmente procesado tanto por humanos como por máquinas.
+* Elementos
+  En JSON, los datos se organizan en pares de "clave: valor", donde la clave es una cadena y el valor puede ser un número, una cadena, un booleano, un objeto JSON, un array o null. Aquí tienes algunos ejemplos de cómo se pueden estructurar los datos en JSON:
+
+ * Objeto JSON
+ * Array de Objetos JSON
+ * Objeto JSON anidado
+ * Array de objetos JSON anidados
+* Tipos de datos simples
+  En JSON, los tipos de datos simples se refieren a los tipos de datos que no son objetos ni arrays. Aquí tienes una lista de los tipos de datos simples en JSON
+  * String (Cadena)
+  * Number (Número)
+  * Boolean (Booleano)
+  * null
+* Listas (arrays)
+  * Array de números
+  * Array de strings
+  * Array de objetos
+  * Array de arrays (array multidimensional)
+* Objetos
+ * En JSON, un objeto es una colección no ordenada de pares clave/valor. Aquí tienes un ejemplo básico de un objeto JSON
+   {
+  "nombre": "Juan",
+  "edad": 30,
+  "ciudad": "Madrid",
+  "casado": false
+}
+* Los objetos JSON pueden anidarse dentro de otros objetos o pueden contener arrays de objetos. Aquí tienes un ejemplo de un objeto anidado
+  {
+  "nombre": "Luis",
+  "edad": 28,
+  "direccion": {
+    "calle": "Calle Mayor",
+    "numero": 123,
+    "ciudad": "Valencia"
+  }
+}
+
+# MongoDB
+* Definición del motor de base de datos
+  Un motor de base de datos es el componente principal de un sistema de gestión de bases de datos (DBMS, por sus siglas en inglés). Es el software encargado de gestionar el almacenamiento, la organización, la recuperación y la manipulación de los datos en una base de datos.
+
+El motor de base de datos interpreta y ejecuta las consultas realizadas por los usuarios o aplicaciones, asegurando que los datos se recuperen y modifiquen de manera precisa y eficiente. También gestiona la concurrencia y la integridad de los datos, garantizando que múltiples usuarios puedan acceder y modificar la base de datos simultáneamente sin que se produzcan conflictos.
+
+Existen diversos tipos de motores de bases de datos, cada uno diseñado para satisfacer diferentes necesidades y requisitos de rendimiento, escalabilidad y funcionalidad. Algunos ejemplos incluyen motores relacionales como MySQL, PostgreSQL y SQL Server, y motores NoSQL como MongoDB y Cassandra.
+* Instalación y configuración con Docker
+  Instalar Docker:
+Instalar Docker:
+Sigue los pasos que mencioné anteriormente para instalar Docker en tu sistema operativo.
+
+Descargar la imagen de MongoDB desde Docker Hub:
+Utiliza el siguiente comando para descargar la imagen oficial de MongoDB desde Docker Hub:
+docker pull mongo
+Crear y ejecutar un contenedor MongoDB:
+Puedes crear y ejecutar un contenedor de MongoDB utilizando el siguiente comando:
+docker run --name my-mongodb -d mongo
+Acceder al contenedor de MongoDB:
+Puedes acceder al shell de MongoDB en el contenedor utilizando el siguiente comando:
+docker exec -it my-mongodb mongo
+Configuración adicional (opcional):
+Si necesitas personalizar la configuración de MongoDB, puedes hacerlo utilizando opciones adicionales al crear el contenedor, como el mapeo de puertos, el montaje de volúmenes, etc. Por ejemplo:
+docker run --name my-mongodb -d -p 27017:27017 mongo
+Verificar la instalación:
+Puedes verificar que MongoDB esté funcionando correctamente utilizando un cliente de MongoDB o ejecutando comandos dentro del shell de MongoDB en el contenedor.
+
+Detener y eliminar el contenedor (opcional):
+Si ya no necesitas el contenedor de MongoDB, puedes detenerlo y eliminarlo utilizando los siguientes comandos:
+docker stop my-mongodb
+docker rm my-mongodb
+
+* pymongo
+  PyMongo es la biblioteca oficial de Python para trabajar con MongoDB, el sistema de gestión de bases de datos NoSQL de código abierto. PyMongo permite a los desarrolladores interactuar con bases de datos MongoDB de forma fácil y eficiente desde aplicaciones Python.
+
+Algunas de las funcionalidades principales de PyMongo incluyen:
+
+Conexión a la base de datos: PyMongo proporciona métodos para establecer conexiones con servidores MongoDB y bases de datos específicas.
+
+Operaciones CRUD: Permite realizar operaciones de creación, lectura, actualización y eliminación de documentos en las colecciones de la base de datos.
+
+Índices y consultas avanzadas: PyMongo ofrece soporte para crear índices en colecciones y realizar consultas avanzadas utilizando el lenguaje de consulta de MongoDB.
+
+Aggregation Framework: Facilita el uso del Aggregation Framework de MongoDB para realizar operaciones de agregación de datos, como agrupaciones, proyecciones y operaciones de pipeline.
+
+Gestión de sesiones y transacciones: Permite trabajar con sesiones y transacciones en bases de datos MongoDB compatibles con transacciones.
+* Insertar
+  "Insertar" es un término utilizado en el contexto de bases de datos para referirse a la acción de agregar nuevos datos a una tabla o colección. Cuando se inserta un nuevo registro en una base de datos, se añade un conjunto de datos a una tabla existente. Este conjunto de datos puede representar un nuevo elemento en una colección de documentos (en el caso de bases de datos NoSQL como MongoDB) o una nueva fila en una tabla (en el caso de bases de datos relacionales como MySQL o PostgreSQL).
+
+La operación de inserción generalmente implica especificar los valores de los campos o columnas que formarán parte del nuevo registro. Por ejemplo, en una tabla de empleados, una operación de inserción puede incluir datos como el nombre del empleado, el salario, la fecha de contratación, etc.
+* consulta
+* borrar
+* modificar
