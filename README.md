@@ -785,5 +785,10 @@ Gestión de sesiones y transacciones: Permite trabajar con sesiones y transaccio
 
 La operación de inserción generalmente implica especificar los valores de los campos o columnas que formarán parte del nuevo registro. Por ejemplo, en una tabla de empleados, una operación de inserción puede incluir datos como el nombre del empleado, el salario, la fecha de contratación, etc.
 * consulta
+  Una "consulta" en el contexto de las bases de datos se refiere a una solicitud de información a la base de datos. Es una instrucción que se envía al sistema de gestión de la base de datos (DBMS) para recuperar, actualizar, eliminar o manipular datos almacenados en la base de datos.
 * borrar
+  "Borrar", en el contexto de las bases de datos, se refiere a la acción de eliminar datos de una tabla o colección. Es una operación que elimina registros o documentos específicos que cumplan con ciertos criterios o condiciones de una base de datos.
+
+Cuando se realiza una operación de borrado en una base de datos, se remueven los datos seleccionados de manera permanente, lo que significa que ya no estarán disponibles para consultas futuras.
 * modificar
+  "Modificar" en el contexto de las bases de datos se refiere a la acción de actualizar o cambiar datos existentes en una tabla o colección. Es una operación que permite hacer cambios en los valores de uno o más campos de un registro específico en la base de datos.
